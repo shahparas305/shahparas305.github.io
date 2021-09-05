@@ -5,17 +5,22 @@
 	<title>pipyt</title>
 	<script src="index.js"></script>
 	<link rel="stylesheet" href="index.css">
-	<script src="index.js"></script>
+	<script src="index.js">
+	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<h1>Picture in picture youtube</h1>
+	<div class="content">
+		<h1 class="content__title">Picture in Picture YouTube</h1>
 
-	<input type="text" id="myText">
-	<button onclick="myFunction()">Go</button>
+		<div class="content__input">
+			<input class="content__input-box" type="text" id="myText" placeholder="Enter YouTube link..." autofocus>
+			<button class="content__button" onclick="myFunction()">Go</button>
+		</div>
 
-	<pre id="myCode"></pre>
-
+		<pre id="myCode"></pre>
+	</div>
 
 </body>
 </html>

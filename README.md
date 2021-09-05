@@ -1,5 +1,2 @@
-
-
-
-# this is the shit hoe
+# simple picture to picture converter for iphone
 

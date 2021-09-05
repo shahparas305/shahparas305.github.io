@@ -2,17 +2,18 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: white;
-    background-color: #323232;
+    background-color: #181818;
 }
 
 .content__input {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .content__input-box {
     border: 0;
-    background-color: #323232;
+    background-color: #181818;
     font-size: 20px;
     caret-color: white; 
 }

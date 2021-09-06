@@ -14,7 +14,13 @@ function myFunction() {
   
   
   
-    $('#myCode').html('<iframe class="video_sizer" src="//www.youtube.com/embed/' + myId + '" frameborder="0" allowfullscreen></iframe>');
+    
+    if(myId.length === 11) {
+        $('#myCode').html('<iframe class="video_sizer" src="//www.youtube.com/embed/' + myId + '" frameborder="0" allowfullscreen></iframe>');
+    } else {
+        $('#myCode').html('<div>Sorry not a valid youtube link</div>');
+    }
+    
     
 
 
